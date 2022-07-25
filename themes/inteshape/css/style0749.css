@@ -8310,7 +8310,7 @@ padding:7px 0px;
 .main-bar {
 	position: relative;
 	width: 100%;
-	padding: 10px 0px;
+	padding: 0px 0px;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
@@ -8410,7 +8410,8 @@ padding:7px 0px;
 
 .header-style-1 .is-fixed.color-fill .main-bar {
 	background: #fff;
-	padding: 12px 0px;
+	padding: 0px 0px !important;
+	height: 115px;
 }
 
 .nav-transparent .is-fixed.color-fill .main-bar {
@@ -8478,12 +8479,12 @@ padding:7px 0px;
 	top: -11px;
 	position: absolute;
 	width: 3000px;
-	background-color: #000;
+	background-color: #f2f2f2;
 	z-index: -1;
 	bottom: -11px;
 }
 .logo-header .logo-header-inner img {
-	max-height: 70px!important;
+	max-height: 100px!important;
 }
 
 .header-style-1 .is-fixed.color-fill .header-left-gray-block .logo-header:after{
@@ -8629,7 +8630,7 @@ padding:7px 0px;
 
 .header-nav {
 	position: relative;
-	padding: 0px;
+	padding: 20px 0 0px;
 	z-index: 7;
 }
 
@@ -9317,6 +9318,7 @@ padding:7px 0px;
 	position: fixed;
 	top: 0;
 	left: 0;
+	height: 111px;
 }
 
 .is-fixed .header-nav .nav>li>a {
@@ -9324,7 +9326,7 @@ padding:7px 0px;
 }
 
 .is-fixed .extra-nav {
-	padding: 13px 0;
+	padding: 35px 0;
 }
 
 
