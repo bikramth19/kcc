@@ -8084,7 +8084,8 @@ HEADER (top part of page)
 }
 
 .extra-nav .extra-cell > a{
-	font-size:18px;
+	font-size:26px;
+	color: #ce9c3a;
 }
 .extra-nav .extra-cell > a i.arrow-animation{
 	font-size:24px;
@@ -8428,7 +8429,7 @@ padding:7px 0px;
     background-color:#fff;
 }
 .header-style-1 .main-bar {
-	border-bottom:1px solid #efefef;
+	border-bottom: 2px solid #ce9c3a;
 }
 
 .header-style-1 .top-bar{
@@ -8661,9 +8662,9 @@ padding:7px 0px;
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
-	color: #222;
+	color: #ce9c3a;
 	display:inline-block;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 33px 12px;
 	cursor: pointer;
 	margin: -9px 0;
