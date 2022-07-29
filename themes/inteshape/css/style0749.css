@@ -9334,7 +9334,9 @@ padding:7px 0px;
 
 
 
-
+.navbar-toggler {
+	padding: 1.2em 0.8em;
+}
 .is-fixed.color-fill .header-nav .nav > li > a { padding:34px 12px;}
 
 
