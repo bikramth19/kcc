@@ -18,7 +18,7 @@ Version: 1.0
 		|____TEXT BOLD____*/
 
 
-/*======================================
+/*======================================s
   || CSS TABLE CONTENT ||
 =======================================
 
@@ -8602,7 +8602,7 @@ padding:7px 0px;
 }
 
 .navbar-toggler .icon-bar {
-	background: #000;
+	background: #fff;
 	height: 3px;
 	border-radius: 0;
 	-webkit-border-radius: 0;
@@ -9346,6 +9346,7 @@ padding:7px 0px;
 @media only screen and (max-width:540px) {
 	.is-fixed .navbar-toggler {
 		margin-bottom: 0px;
+		padding: 1.2em 0.8em;
 	}
 	.contact-slide-hide {
 		right: -100%;
@@ -9369,12 +9370,14 @@ padding:7px 0px;
 @media only screen and (max-width:768px) {
 	.is-fixed .extra-nav {
 		padding: 13px 7px;
+		display: none;
 	}
 }
 
 @media only screen and (max-width:767px) {
 	.is-fixed .extra-nav {
 		padding: 13px 0px;
+		display: none;
 	}
 }
 /*-------------------------------------
@@ -9390,6 +9393,7 @@ padding:7px 0px;
 	.is-fixed .main-bar,
 	.is-fixed.color-fill .main-bar {
 		padding: 0px;
+		position: absolute;
 	}
 }
 
